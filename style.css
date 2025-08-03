@@ -1,1 +1,83 @@
+* {
+  box-sizing: border-box;
+}
 
+/* Set height of body and the document to 100% */
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Style tab links */
+.tablink {
+  background-color: #808080;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: #777777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+
+  h1 {
+    text-align: center;
+    font-size: 300%;
+    color: white;
+  }
+    h2 {
+    text-align: center;
+    font-size: 100%;
+    color: white;
+  }
+  p {
+    text-align: center;
+    font-size: 160%;
+    color: white;
+  }
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+#Home {
+  width: auto;
+  height: auto;
+  background-image: url("https://cdn.glitch.global/45779d7c-d82a-46bd-8bf9-d07aad5de43f/ltotbngnzzu-uai-1600x900.jpg?v=1739509492582");
+  background-repeat: repeat;
+}
+#Letters {
+  width: auto;
+  height: auto;
+  margin: auto;
+  background-image: url("https://cdn.glitch.global/45779d7c-d82a-46bd-8bf9-d07aad5de43f/ltotbngnzzu-uai-1600x900.jpg?v=1739509492582");
+  background-repeat: repeat-y;
+}
+#Valentines {
+  width: auto;
+  height: auto;
+  background-repeat: repeat-y;
+  background-image: url("https://cdn.glitch.global/45779d7c-d82a-46bd-8bf9-d07aad5de43f/ltotbngnzzu-uai-1600x900.jpg?v=1739509492582");
+}
+#Gallery {
+  width: auto;
+  height: auto;
+  background-repeat: repeat-y;
+  background-image: url("https://cdn.glitch.global/45779d7c-d82a-46bd-8bf9-d07aad5de43f/ltotbngnzzu-uai-1600x900.jpg?v=1739509492582");
+}
